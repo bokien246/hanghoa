@@ -3,15 +3,16 @@ import cv2
 
 reader = easyocr.Reader(['en']) 
 
-
-result = reader.readtext('C:\\Users\\kiend\\OneDrive\\Desktop\\hanghoa\\im4.png')
-anh = cv2.imread('C:\\Users\\kiend\\OneDrive\\Desktop\\hanghoa\\im4.png')
+#quan trọng1: 
+result = reader.readtext('C:\\Users\\kiend\\OneDrive\\Desktop\\hanghoa\\im2.png')
+anh = cv2.imread('C:\\Users\\kiend\\OneDrive\\Desktop\\hanghoa\\im2.png')
 font = cv2.FONT_HERSHEY_SIMPLEX 
 
-
+#quan trọng2:
 product_database = {
     "Sua": ["milk", "milK", "milx", "mi1k"],
     "bimbim": ["Snack", "snacK", "sn4ck", "sn@ck"],
+    "Banhmi":["Staff", "stafF", "st@ff", "st4ff"],
 }
 
 found = False

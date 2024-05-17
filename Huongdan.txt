@@ -1,0 +1,36 @@
+1,Vào visual studio code mở folder file code lên
+2,Vào phần ... trên cùng
+3,Chọn Terminal
+4,Nhập 2 câu lệnh lần lượt:
+git status
+git pull origin main
+Xong phần update code.
+
+--Hướng dẫn thay hình bất kì:
+Quan trọng nhất là 2 phần có đánh dấu trong code
+
+1,Quan trọng 1 là 2 đường dẫn ảnh:
+Chuột phải vào các file ảnh chọn copy path rồi dán vào
+result = reader.readtext('C:\\Users\\kiend\\OneDrive\\Desktop\\hanghoa\\im4.png')
+anh = cv2.imread('C:\\Users\\kiend\\OneDrive\\Desktop\\hanghoa\\im4.png')
+
+Chú ý: Phải thêm 1 dấu \
+
+2,Quan trong 2 là phần thêm dữ liệu vào database
+Ví dụ như bức ảnh này
+Thì kí tự dễ nhận ra nhất là Staff
+từ đó suy ra đây là bánh mì
+
+thêm vào database như sau
+
+ "Banhmi":["Staff", "stafF", "st@ff", "st4ff"],
+
+Trong đó:
+Banhmi là hiện lên khi chạy code
+
+Còn các ["Staff", "stafF", "st@ff", "st4ff"],
+
+Là các kí tự để nhận diện trong ảnh
+
+
+
