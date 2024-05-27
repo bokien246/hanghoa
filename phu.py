@@ -61,4 +61,4 @@ for filename in os.listdir(input_directory):
         process_image(image_path, reader, product_database, output_directory)
         print(f"Processed: {filename}")
 
-print("Ket Qua:")
+print("Xong")
